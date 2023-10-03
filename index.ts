@@ -5,7 +5,7 @@ const dataset = {};
 // Prepare data for CSV
 let data = '';
 dataset.results.forEach((item, index) => {
-    data += `"${item.automatedTestStorage.replace('"', '""')}","${item.testCaseTitle.replace('"', '""')}""\n`;
+    data += `"${item.automatedTestStorage.replace('"', '""')}","${item.testCaseTitle.replace('"', '""')}"\n`;
 });
 
 // Write data to CSV file
